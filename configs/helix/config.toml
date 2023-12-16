@@ -30,8 +30,11 @@ center = ["file-name", "diagnostics"]
 right = ["total-line-numbers", "primary-selection-length", "position"]
 separator = "│"
 
+[editor.soft-wrap]
+enable = true
 
 [keys.normal]
+C-r = ":toggle-option soft-wrap.enable"
 C-s = [":format", ":write"]
 "tab" = ":buffer-next"
 S-tab = ":buffer-previous"
@@ -40,3 +43,7 @@ S-tab = ":buffer-previous"
 
 [keys.insert]
 C-s = [":write"]
+
+
+
+
