@@ -156,7 +156,7 @@ mode "resize" {
 # finds out, if available)
 
 exec_always flameshot &
-exec_always xset r rate 210 40
+exec_always xset r rate 210 80
 
 # start a terminal
 bindsym $mod+Return exec kitty
