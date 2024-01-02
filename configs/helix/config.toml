@@ -1,7 +1,7 @@
 theme = "adwaita-dark"
 
-# [editor.whitespace.render]
-# newline = "all"
+[editor.whitespace.render]
+newline = "all"
 
 [editor.whitespace.characters]
 newline = "☿"
@@ -15,7 +15,7 @@ normal = "block"
 select = "underline"
 
 [editor]
-line-number = "relative"
+# line-number = "relative"
 cursorline = true
 color-modes = true
 completion-trigger-len = 1
