@@ -1,7 +1,7 @@
 theme = "adwaita-dark"
 
-[editor.whitespace.render]
-newline = "all"
+# [editor.whitespace.render]
+# newline = "all"
 
 [editor.whitespace.characters]
 newline = "☿"
