@@ -16,6 +16,7 @@ select = "underline"
 
 [editor]
 # line-number = "relative"
+mouse = false
 cursorline = true
 color-modes = true
 completion-trigger-len = 1
