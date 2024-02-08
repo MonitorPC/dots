@@ -164,7 +164,12 @@ bindsym $mod+Return exec kitty
 # start browser
 bindsym $mod+b exec --no-startup-id google-chrome-stable
 
-#
+# print screen 
 bindsym Print exec flameshot gui
 
+# start rofi
 bindsym $mod+r exec rofi -show drun
+
+# brightness
+bindsym XF86MonBrightnessUp exec brightnessctl -c backlight s +15
+bindsym XF86MonBrightnessDown exec brightnessctl -c backlight s 15-
