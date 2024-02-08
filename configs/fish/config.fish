@@ -4,4 +4,9 @@ if status is-interactive
     alias b "cat /sys/class/power_supply/BAT1/capacity"
 
     set fish_greeting ""
+
+    # ------git------
+    alias gs "git status"
+    alias gc "git commit"
+    alias gp "git push"
 end
