@@ -1,5 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export QT_QPA_PLATFORMTHEME:gtk3
 SETUVAR --export SUDO_EDITOR:/usr/bin/helix
 SETUVAR __fish_initialized:3400
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
