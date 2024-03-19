@@ -5,13 +5,8 @@ if status is-interactive
     alias lock "i3lock"
 
     alias jl "jupyter-lab"
-    alias python_activate "source ~/python_vm/bin/activate.fish"
+    alias python_activate "source ~/python_venv/bin/activate.fish"
 
     set fish_greeting ""
 
-    # ------git------
-    alias gs "git status"
-    alias gc "git commit"
-    alias gp "git push"
-    alias ga "git add"
 end
