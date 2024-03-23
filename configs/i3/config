@@ -157,6 +157,7 @@ bindsym $mod+s mode "resize"
 
 exec_always flameshot &
 exec_always xset r rate 220 150
+exec_always nmcli d d wlp2s0
 
 # start a terminal
 bindsym $mod+Return exec kitty
