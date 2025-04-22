@@ -1,50 +1,14 @@
-theme = "autumn_night"
+theme = "ayu_light"
 
-[editor.whitespace.render]
-newline = "all"
-
-[editor.whitespace.characters]
-newline = "☿"
-
-[editor.file-picker]
-hidden = false
+[editor]
+line-number = "absolute"
+mouse = false
 
 [editor.cursor-shape]
 insert = "bar"
 normal = "block"
 select = "underline"
 
-[editor]
-# line-number = "relative"
-mouse = false
-cursorline = true
-color-modes = true
-completion-trigger-len = 1
-bufferline = "multiple"
-idle-timeout = 0
-auto-format = true
-true-color = true
-
-[editor.statusline]
-left = ["mode", "spinner"]
-center = ["file-name", "diagnostics"]
-right = ["total-line-numbers", "primary-selection-length", "position"]
-separator = "│"
-
-[editor.soft-wrap]
-enable = true
-
-[keys.normal]
-C-r = ":toggle-option soft-wrap.enable"
-C-s = [":format", ":write"]
-"tab" = ":buffer-next"
-S-tab = ":buffer-previous"
-"0" = "goto_line_start"
-"$" = "goto_line_end"
-
-[keys.insert]
-C-s = [":write"]
-
-
-
+[editor.file-picker]
+hidden = false
 
